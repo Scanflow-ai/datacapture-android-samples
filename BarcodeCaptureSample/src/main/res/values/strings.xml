@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BarcodeCaptureSample</string>
+    <string name="txt_bar_code">Barcode Scan</string>
+    <string name="txt_qr_code">QR Code Scan</string>
+    <string name="txt_any_code">Any Scan</string>
+</resources>

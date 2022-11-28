@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BatchCaptureSample</string>
+    <string name="txt_batch_scan">Batch Scan</string>
+</resources>

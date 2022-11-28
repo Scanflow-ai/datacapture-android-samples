@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://nexus.optisolbusiness.com/repository/scanflow-release/" }
+    }
+}
+rootProject.name = "datacapture-android-samples"
+include ':BarcodeCaptureSample'
+include ':BatchCaptureSample'
+include ':OneOfManyCaptureSample'
+include ':IdCaptureSample'
+
+include ':TextCaptureSample'
+include ':PivotCaptureSample'

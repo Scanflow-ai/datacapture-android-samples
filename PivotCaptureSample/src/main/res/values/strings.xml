@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PivotCaptureSample</string>
+    <string name="txt_pivot_scan">Pivot Scan</string>
+</resources>
